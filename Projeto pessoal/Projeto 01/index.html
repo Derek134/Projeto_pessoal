@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- tag de abertura do, aqui será a estutua da pagina  -->
+<head> <!-- Configuração da pagina (não vai aparecer no navegador) -->             
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 01</title>
+</head>
+
+
+<body style="padding-bottom: 500px;"> <!-- todo o elemento que vai aparecer no navegaodor -->
+
+    <header> <!-- cabeçalho -->
+        <h4>Minha marca</h4>
+        <nav> <!-- barra de navegação -->
+            <a href="#">Home</a>
+            <a href="#">Contato</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main> <!-- Conteudo principal -->
+        <h1>hello world!</h1> <!-- A teag "H1 ao H6" são tags de Titulos -->
+        <h2>hello world!</h2>
+        <h3>hello world!</h3>
+        <h4>hello world!</h4>
+        <h5>hello world!</h5>
+        <h6>hello wolrd!</h6>
+        <p>aprendendo HTML</p> <!-- a tag "p" é uma tag de paragrafo aqui você vai escrever todos os paragrafos da pagina-->
+        <p>Aqui eu tenho mais um texto é <strong>isso e importante</strong> por isso está em negrito</p> <!-- a tag "strong" deixa o texto em negrito -->
+        <p>Aqui eu tenho um texto é <em>isso e importante</em> por isso está em italico</p> <!-- a tag "em" deixa o texto em italico -->
+    </main>
+
+<!-- Colocando imagens e link -->
+    <img src="img.jpg" alt="por-do-sol">
+<!-- tem como colocar imagens só copiando o link, e não necessariamente baixar a imagen  -->
+    <img src="https://cdn.pixabay.com/photo/2023/07/05/18/13/mountains-8108961_640.jpg" alt="imagen-endereço">
+
+<!-- a tag "a" é link -->
+    <p><a href="https://www.google.com">Google</a></p>
+
+<!-- a tag "target" junto com a tag "blank" permite abrir o link em outra aba -->
+<p><a href="https://www.google.com" target="_blank">Google nova aba</a></p>
+
+    <!-- Listas -->
+
+    <h2 id="meu-titulo">Listas não ordenadas</h2>
+        <ul>
+        <li class="item">Acordar</li>
+        <li class="item">Jogar</li>
+        <li class="item">Assistir serie</li>
+        <li class="item">Estudar</li>
+    </ul>
+
+    <h2>Listas ordenadas</h2>
+        <ol>
+            <li>Estudar html</li>
+            <li>Estudar css</li>
+            <li>Estudar javascript</li>
+            <li>Dominar tudo</li>
+        </ol>
+
+<!-- Tabelas -->
+
+    <table>
+            <tr>
+                <th >Nome:</th>
+                <th>Profissão:</th>
+            </tr>
+            <tr>
+                <td>Derek</td>
+                <td>Desempregado</td>
+            </tr>
+            <tr>
+                <td>Dioleno</td>
+                <td>Dentista</td>
+            </tr>
+    </table>
+
+    <!-- formulários -->
+    <h2>Formulários</h2>
+
+    <form action="/processar_form.php" method="post">
+        <input type="text" name="nome_completo" placeholder="Escreva seu nome..."> <br> <!-- campo para escrever nome,e-mail,numero -->
+
+        <textarea name="comentario"> 
+
+        </textarea> <!-- campo para escrever comentarios, ou textos mais longos --> 
+        <br> <!-- tag "br" usado para quebra de linhas -->
+        <select name="marca_de_carro"> <!-- selecionar opções pre-definidas -->
+            <option>Ferrari</option>
+            <option>BMW</option>
+            <option>Mercedes</option>
+        </select> <br>
+        <input type="email" name="e-mail"><br>
+        <input type="number" name="numero"><br>
+        <input type="password" name="senha"><br>
+        <input type="submit" value="Enviar"> <!-- campo usados para enviar para o banco de dados -->
+
+        <!-- Elementos de bloco -->
+        <div>
+            <h3>Div</h3>
+            <p>Conteudo</p>
+        </div>
+
+    </form>
+
+    <footer> <!-- Rodapé -->
+        <p>Tropa do pau medio</p>
+    </footer>
+
+</body>
+
+
+
+
+</html><!-- Fechamento da tag html, estrutura da pagina em si -->               
