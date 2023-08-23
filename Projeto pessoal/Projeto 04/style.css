@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: rgb(6, 255, 222);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 94, 128);
+}
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.produto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card { 
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    
+}
+
+.produto-img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbrmIGjNK5QrzqVt1y9dWL-zyoGYkpsu7sQ&usqp=CAU);
+}
+
+#img-2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbrmIGjNK5QrzqVt1y9dWL-zyoGYkpsu7sQ&usqp=CAU);
+}
+
+#img-3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbrmIGjNK5QrzqVt1y9dWL-zyoGYkpsu7sQ&usqp=CAU);
+}
+
+#img-4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbrmIGjNK5QrzqVt1y9dWL-zyoGYkpsu7sQ&usqp=CAU);
+}
+
+#img-5 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbrmIGjNK5QrzqVt1y9dWL-zyoGYkpsu7sQ&usqp=CAU);
+}
+
+#img-6 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbrmIGjNK5QrzqVt1y9dWL-zyoGYkpsu7sQ&usqp=CAU);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: rgb(22, 156, 109);
+    border-left: 5px solid rgb(36, 208, 105);
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    text-decoration: none;
+    background-color: rgb(12, 186, 166);
+    padding: 15px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: rgb(0, 60, 255);
+    color: white
+}
+
+footer {
+    background-color: aqua;
+    color: #fff;
+    border-top: 3px solid rgb(0, 119, 255);
+    text-align: center;
+    padding: 40px;
+}
